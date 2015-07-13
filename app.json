@@ -1,0 +1,7 @@
+{
+  "name": "messenger",
+  "description": "An anonymous group messenger",
+  "repository": "",
+  "logo": "",
+  "keywords": ["node", "express", "static"]
+}

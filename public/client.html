@@ -1,0 +1,31 @@
+<html> 
+    <head>
+        <title>Anonymous Messenger</title>
+        <link rel="stylesheet" href="css/client.css">
+        <link rel="icon" href="images/favicon.png"/>
+        <script src="js/jquery.js"></script>
+        <script src="js/firebase.js"></script>
+    </head>
+    <body style="display:none">
+        <div class="container">
+            <div class="sidebar">
+              <div class="band">Participants</div>
+              <div id='userlist'><div class="loader" id='loader'></div></div>    
+           </div>
+           <div class="msgpanel">
+                <div class="nameband" id='nameband'>
+                    <div class="band">
+                        <span class='recname' id='recname' ></span>
+                        <span class="link" onclick="logout()">leave chat</span>
+                    </div>
+                </div>
+                <div class="msgframe" id='msgframe'>
+                    <div class="loader" id='loader'></div>
+                </div>
+           </div>
+        </div>
+        <div class='msgdiv'><input id='msg' type="text" name='msg' placeholder="type your message in here" class="msginput"></div>
+        <audio src="assets/msgincoming.mp3" id='msgincoming'></audio>
+        <script src="js/client.js"></script>
+    </body>
+</html>
